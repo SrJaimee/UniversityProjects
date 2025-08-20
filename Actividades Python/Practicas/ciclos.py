@@ -1,4 +1,4 @@
-3#Creacion de Ciclos // Iteracion // Bucle
+#Creacion de Ciclos // Iteracion // Bucle
 #Sentencias // While // For
 #ctrl + c // Para parar la consola
 
