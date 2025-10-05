@@ -77,5 +77,3 @@ while True:
     elif respuesta == 4:
         print("Saliendo de la tienda")
         break
-    
-#Holaaa
