@@ -9,3 +9,7 @@ def inicio(request):
 #Creacion de una funcion para mostrar el documento html
 def index(request):
     return render(request, 'paginas/index.html')
+
+#Creacion de una funcion para mostar el documento registro (Que es el index de registro)
+def gestionarDatos(request):
+    return render(request, 'gestionarDatos/registros.html')
