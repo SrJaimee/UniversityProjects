@@ -7,6 +7,6 @@ from . import views
 #Estructura basica de redireccionamiento
 urlpatterns = [
     path('', views.inicio, name='inicio'),
-    path('index', views.index, name='index'),
+    path('index', views.index, name='inventario'),
     path('gestionarDatos', views.gestionarDatos, name='gestionarDatos'),
 ]

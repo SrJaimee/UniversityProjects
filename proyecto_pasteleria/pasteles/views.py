@@ -4,11 +4,11 @@ from django.http import HttpResponse
 
 #Creacion de una funcion para imprimir una bienvenida, imprime un texto html
 def inicio(request):
-    return HttpResponse("<h1>Bienvenido a la Pasteleria</h1>")
+    return render(request, 'paginas/inicio.html')
 
 #Creacion de una funcion para mostrar el documento html
 def index(request):
-    return render(request, 'paginas/index.html')
+    return render(request, 'paginas/inventario.html')
 
 #Creacion de una funcion para mostar el documento registro (Que es el index de registro)
 def gestionarDatos(request):
