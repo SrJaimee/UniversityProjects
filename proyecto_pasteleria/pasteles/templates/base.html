@@ -24,10 +24,9 @@
         <!-- Creacion del Home o Menu / Plantilla con varias secciones-->
         <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="nav navbar-nav">
-                <a class="nav-item nav-link active" href="#" aria-current="page">Inicio </a>
-                <a class="nav-item nav-link" href="#">Pasteles Infantiles</a>
-                <a class="nav-item nav-link" href="#">Pasteles de Boda</a>
-                <a class="nav-item nav-link" href="#">Pasteles De Graduación</a>
+                <a class="nav-item nav-link active" href="{% url 'inicio' %}">Inicio</a>
+                <a class="nav-item nav-link active" href="{% url 'inventario' %}">Menu</a>
+                <a class="nav-item nav-link active" href="{% url 'gestionarDatos' %}">Pasteles</a>
             </div>
         </nav>
         
