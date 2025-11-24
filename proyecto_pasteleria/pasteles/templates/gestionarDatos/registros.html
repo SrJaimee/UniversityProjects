@@ -1,0 +1,42 @@
+<!-- Estructura -->
+
+{% extends "base.html" %}
+
+{% block titulo %} Tipo de Pasteles {% endblock%}
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        Pasteles
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Pasteles</h4>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <!--Columnas de la Tabla-->
+                    <th>ID</th>
+                    <th>Titulo</th>
+                    <th>Imagen</th>
+                    <th>Descripcion</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--Datos-->
+                    <td>1</td>
+                    <tb>Pastel de Bob Esponja</tb>
+                    <tb>bobesponja.jpg</tb>
+                    <tb>Pastel increible de Bob Esponja</tb>
+                    <tb>Comer</tb>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+{% endblock %}
