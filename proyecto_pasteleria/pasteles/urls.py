@@ -8,4 +8,5 @@ from . import views
 urlpatterns = [
     path('', views.inicio, name='inicio'),
     path('index', views.index, name='index'),
+    path('gestionarDatos', views.gestionarDatos, name='gestionarDatos'),
 ]
