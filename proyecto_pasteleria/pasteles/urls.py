@@ -5,8 +5,14 @@ from . import views
 
 #El usuario padra entras y acceder a la vista
 #Estructura basica de redireccionamiento
+
+"""
+Estructura del Path:
+    path(' Nombre de la URL ', views.' Nombre de la interfaz ', name=)
+"""
 urlpatterns = [
     path('', views.inicio, name='inicio'),
     path('index', views.index, name='inventario'),
-    path('gestionarDatos', views.gestionarDatos, name='gestionarDatos'),
+    path('tabla_pastel', views.tabla_pastel, name='tabla_pastel'),
+    path('ingresar_nuevo_pastel', views.ingresar_nuevo_pastel, name='ingresar_nuevo_pastel'),
 ]

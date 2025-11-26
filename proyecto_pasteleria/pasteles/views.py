@@ -11,5 +11,8 @@ def index(request):
     return render(request, 'gestionarDatos/inventario.html')
 
 #Creacion de una funcion para mostar el documento registro (Que es el index de registro)
-def gestionarDatos(request):
+def tabla_pastel(request):
     return render(request, 'gestionarDatos/registros.html')
+
+def ingresar_nuevo_pastel(request):
+    return render(request, 'gestionarDatos/ingresardatos.html')
